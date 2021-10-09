@@ -1,0 +1,22 @@
+{
+    "name": "vladimir/laptop",
+    "autoload": {
+        "psr-4": {
+            "Vladimir\\Laptop\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Makarov Vladimir",
+            "email": "vladimir174bf@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
